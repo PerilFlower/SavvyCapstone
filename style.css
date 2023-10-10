@@ -1,0 +1,23 @@
+body  {
+background-image: url("../imgs/istockphoto-1283307885-612x612.jpg");
+background-color:black;
+}
+
+.top_navbar{
+
+
+.searchbar {
+  width;50px
+}
+
+#profilephoto {
+display: flex;
+flex-direction: row-reverse;
+
+
+
+
+.sidebar{
+  display : flex;
+  flex-direction: column-reverse;
+  }
