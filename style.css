@@ -1,24 +1,19 @@
-body  {
+body, html  {
 background-image: url("../imgs/istockphoto-1283307885-612x612.jpg");
 background-color:black;
+margin: 0;
+padding: 0;
 }
 
-.top_navbar{
-background-color: #165261;
+.top_navbar {
+  background-color: #165261;
+  display: flex;
+  justify-content: space-between;
 }
 .searchbar {
 width:
 }
 
-#logo {
-  position:relative;
-  float: left;
-}
-
-#profilephoto {
-  position: relative;
-float:right;
-}
 #labels{
   color: aliceblue;
 }
@@ -31,7 +26,7 @@ float:right;
   background-color: #361952;
   border-radius: %;
   position: fixed;
-  flex-direction: column;
+  justify-content: column;
   width: 200px;
   height: 100%;
   padding: 30px 0;
@@ -41,5 +36,10 @@ padding: 15px;
 display: block;
 }
 
+
 .contactnav {
-  background-color: #b27ce5;
+  background-color: #303245;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
