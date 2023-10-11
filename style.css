@@ -4,20 +4,42 @@ background-color:black;
 }
 
 .top_navbar{
-
-
+background-color: #165261;
+}
 .searchbar {
-  width;50px
+width:
+}
+
+#logo {
+  position:relative;
+  float: left;
 }
 
 #profilephoto {
-display: flex;
-flex-direction: row-reverse;
+  position: relative;
+float:right;
+}
+#labels{
+  color: aliceblue;
+}
 
-
-
-
-.sidebar{
-  display : flex;
-  flex-direction: column-reverse;
+.container {
+  display: flex;
+  position: relative;
+}
+#sidebar_menu .inner_sidebar_menu {
+  background-color: #361952;
+  border-radius: %;
+  position: fixed;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  padding: 30px 0;
   }
+  #sidebar_menu .inner_sidebar_menu ul {
+padding: 15px;
+display: block;
+}
+
+.contactnav {
+  background-color: #b27ce5;
